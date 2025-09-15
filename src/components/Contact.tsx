@@ -229,11 +229,11 @@ const Contact: React.FC = () => {
                   ) : (
                     <>
                       <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                      <span>Send Message</span>
+                      <span className="relative z-10">Send Message</span>
                     </>
                   )}
                   <div className="absolute inset-0 bg-[#00FF41] transform scale-x-0 
-                                group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                                group-hover:scale-x-100 transition-transform duration-300 origin-left z-[-1]"></div>
                 </button>
               </form>
 
